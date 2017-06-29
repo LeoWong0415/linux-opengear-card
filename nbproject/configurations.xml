@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>FPGA.h</itemPath>
+      <itemPath>adc.h</itemPath>
+      <itemPath>can_lv.h</itemPath>
+      <itemPath>clienthandler.h</itemPath>
+      <itemPath>compressor.h</itemPath>
+      <itemPath>config.h</itemPath>
+      <itemPath>control.h</itemPath>
+      <itemPath>leveler.h</itemPath>
+      <itemPath>logo.h</itemPath>
+      <itemPath>menus.h</itemPath>
+      <itemPath>ogp.h</itemPath>
+      <itemPath>ogp_ctrl.h</itemPath>
+      <itemPath>oids.h</itemPath>
+      <itemPath>opengear.h</itemPath>
+      <itemPath>parameters.h</itemPath>
+      <itemPath>spicontrol.h</itemPath>
+      <itemPath>utilities.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>FPGA.c</itemPath>
+      <itemPath>adc.c</itemPath>
+      <itemPath>can_lv.c</itemPath>
+      <itemPath>clienthandler.c</itemPath>
+      <itemPath>compressor.c</itemPath>
+      <itemPath>config.c</itemPath>
+      <itemPath>control.c</itemPath>
+      <itemPath>leveler.c</itemPath>
+      <itemPath>logo.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>menus.c</itemPath>
+      <itemPath>ogp_ctrl.c</itemPath>
+      <itemPath>opengear.c</itemPath>
+      <itemPath>parameters.c</itemPath>
+      <itemPath>spicontrol.c</itemPath>
+      <itemPath>utilities.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU_ARM_UNKNOW_LINUX|GNU</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <commandLine>-lpthread -lm</commandLine>
+        </cTool>
+      </compileType>
+      <item path="FPGA.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="FPGA.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="adc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="adc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="can_lv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="can_lv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="clienthandler.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="clienthandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="compressor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="compressor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="control.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="control.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="leveler.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="leveler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="logo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="logo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ogp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ogp_ctrl.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ogp_ctrl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="oids.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="opengear.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="opengear.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parameters.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="parameters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="spicontrol.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="spicontrol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utilities.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="utilities.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>ARM_NONE_LINUX_GNUEABI|GNU</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="FPGA.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="FPGA.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="adc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="adc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="can_lv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="can_lv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="clienthandler.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="clienthandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="compressor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="compressor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="control.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="control.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="leveler.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="leveler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="logo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="logo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ogp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ogp_ctrl.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ogp_ctrl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="oids.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="opengear.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="opengear.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parameters.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="parameters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="spicontrol.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="spicontrol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utilities.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="utilities.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
